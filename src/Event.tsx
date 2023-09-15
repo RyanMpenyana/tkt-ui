@@ -7,6 +7,10 @@ const Event = (details: Details) => {
             <h5>{details.date}</h5>
             <p>{details.province}</p>
             <p>{details.time}</p>
+            <p>{details.id}</p>
+            <p>{details.venue}</p>
+            <p>{details.tickets}</p>
+
         </div>
     )
 }
