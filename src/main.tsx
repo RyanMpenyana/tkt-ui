@@ -5,6 +5,6 @@ import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <React.StrictMode>
-    <Event description='Party event' time='15:00' province='Gauteng' date='2023-10-12'/>
+    <Event description='Party event' time='15:00' province='Gauteng' date='2023-10-12' id={2} venue='Pretoria' tickets={[]} />
   </React.StrictMode>,
 )
