@@ -22,7 +22,8 @@ const EventContainer = () => {
 
     return (
         <div>
-            <input type="text" onChange={inputChangeHandler} value={filteredEvent} />
+            <input type="date" name="" id="" onChange={inputChangeHandler} value={filteredEvent} />
+            <input type="text" onChange={inputChangeHandler} />
             {data.map(event => {
                 return <Event description={event.description} province={event.province} date={event.date} time={event.time} key={event.id} venue={event.venue} tickets={[]} id={event.id} />
             })}
