@@ -1,6 +1,6 @@
 import { Details } from "./types";
 
-const Event = (details: Details) => {
+const Event: React.FC<Details> = (details) => {
     return (
         <div>
             <h3>{details.description}</h3>
@@ -25,3 +25,4 @@ const Event = (details: Details) => {
 //     "province": "Gauteng",
 // }
 export default Event;
+
