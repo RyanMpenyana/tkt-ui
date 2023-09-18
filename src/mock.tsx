@@ -5,8 +5,8 @@ export const events = [
         "tickets": [],
         "venue": "Sandton",
         "time": "14:00:00",
-        "date": "2023-10-14",
-        "province": "Gauteng",
+        "date": "2023-10-24",
+        "province": "Limpopo",
         "sales": []
     },
     {
@@ -26,7 +26,7 @@ export const events = [
         "venue": "Sandton",
         "time": "14:00:00",
         "date": "2023-10-14",
-        "province": "Gauteng",
+        "province": "KwaZulu Natal",
         "sales": []
     },
     {
@@ -36,7 +36,7 @@ export const events = [
         "venue": "Sandton",
         "time": "14:00:00",
         "date": "2023-10-14",
-        "province": "Gauteng",
+        "province": "KwaZulu Natal",
         "sales": []
     },
     {
@@ -56,7 +56,7 @@ export const events = [
         "venue": "Sandton",
         "time": "14:00:00",
         "date": "2023-10-14",
-        "province": "Gauteng",
+        "province": "Mpumalanga",
         "sales": []
     },
     {

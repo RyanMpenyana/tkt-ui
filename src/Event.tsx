@@ -1,6 +1,6 @@
 import { Details } from "./types";
 
-const Event = (details: Details) => {
+const Event: React.FC<Details> = (details) => {
     return (
         <div>
             <h3>{details.description}</h3>
@@ -15,13 +15,5 @@ const Event = (details: Details) => {
     )
 }
 
-// {
-//     "id": 2,
-//     "description": "Hard Rock Cafe, Going Hard!",
-//     "tickets": [],
-//     "venue": "Sandton",
-//     "time": "14:00:00",
-//     "date": "2023-10-14",
-//     "province": "Gauteng",
-// }
 export default Event;
+
